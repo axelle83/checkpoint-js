@@ -1,0 +1,213 @@
+/* *********************************************** */
+/* general rules */
+/* *********************************************** */
+@import url('https://fonts.googleapis.com/css?family=Miriam+Libre:400,700');
+body {
+  background-color: #FAFAFA;
+  font-family: "Miriam Libre";
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+.hide, .msg {
+	display: none;
+}
+.choice {
+  background-color: #A6CEEF;
+  border: 1px solid #A6CEEF;
+  border-radius: 50px;
+}
+#home-title {
+  border-bottom: 1px solid #007bff;
+  color: #007bff;
+  font-size: 1.5em;
+  margin: 1em auto;
+  text-align: center;
+  width: 20vw;
+}
+#footer {
+  border-top: 1px solid #007bff;
+  color: #007bff;
+  font-size: .7em;
+  font-weight: lighter;
+  margin: 1em auto;
+}
+/* *********************************************** */
+/* navbar */
+/* *********************************************** */
+.navbar {
+  background: linear-gradient( to left,#127DD7, #A6CEEF);
+  width: 100%;
+  height: 1.5em;
+}
+.navbar a {
+	color: white;
+	font-size: .8em;
+}
+
+/* *********************************************** */
+/* header */
+/* *********************************************** */
+#title {
+	background: linear-gradient(#A6CEEF, #127DD7);
+	color: #E0E9F0;
+	font-size: 1.5em;
+	margin: .8em auto 0 auto;
+	padding: .6em;
+	width: 15em;
+}
+.subtitle {
+	margin: 1em auto 0 auto;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #002FCC;
+}
+.btn-primary {
+   background-color: #428CC6;
+   margin: .5em;
+   font-size: .8em;
+}
+
+.btn-primary:hover {
+  background: #f1484B;
+  border: none;
+}
+
+/* *********************************************** */
+/* memory */
+/* *********************************************** */
+
+#game {
+  background: linear-gradient(#2281CE, #002FCC);
+  margin: auto;
+  height: 450px;
+  width: 780px;
+}
+
+.carte {
+  float: left;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.cache {
+  background-color: #D0DBED;
+  height: 100px;
+  position: absolute;
+  width: 100px;
+}
+
+.image {
+  background: url("../images/cards.png");
+  background-color: white;
+  display: none;
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+#gameover {
+	color: #002FCC;
+	font-size: 10em;
+}
+
+#scroll {
+  border: 1px solid #ccc;
+  margin: auto;
+  text-align: center;
+}
+
+#progress {
+  background-color: #428CC6;
+  height: 20px;
+  position: relative;
+  width: 0;
+}
+
+/* *********************************************** */
+/* boule */
+/* *********************************************** */
+body {
+	font-size: 16px;
+}
+#casino {
+	padding-top: 2em;
+}
+#layout {
+	position: relative;
+	margin-top: 0;
+  	max-width: 290px;
+}
+.layout {
+	position: absolute;
+	margin-top: 0;
+}
+#manque, #passe {
+	min-width: 11.2em;
+	min-height: 2em;
+	left:1em;
+}
+#manque {
+	top:1em;
+}
+#passe {
+	top:12.4em;
+}
+#noir, #rouge, #un, #impair, #deux {
+	top:3.2em;
+}
+#noir, #rouge {
+	min-width: 2.1em;
+	min-height: 9em;
+}
+#noir {
+	left:1em;
+}
+#rouge {
+	left:10.1em;
+}
+#pair, #impair, #cinq {
+	min-width: 2.1em;
+	min-height: 3.1em;
+	left:5.6em;
+}
+#pair {
+	top: 9.2em;
+}
+.number  {
+	min-width: 2.2em;
+	min-height: 2.2em;
+}
+#un, #trois, #six, #huit {
+	left:3.2em;
+}
+#deux, #quatre, #sept, #neuf {
+	left: 7.8em;
+}
+#trois, #quatre {
+	top : 5.5em;
+}
+#six, #sept {
+	top : 7.8em;
+}
+#huit, #neuf {
+	top: 10em;
+}
+#cinq {
+	top: 6.2em;
+}
+
+@media (min-width: 992px) {
+	body {
+		font-size: 22px;
+	}
+
+/* *********************************************** */
+/* bubbles */
+/* *********************************************** */
+
+#play1, #play2 {
+  background-color: #CBEBF4;
+}
